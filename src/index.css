@@ -1,0 +1,15 @@
+/* Global resets only; all visual styling comes from the MUI theme. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* safety net: never allow sideways scrolling on phones */
+}
